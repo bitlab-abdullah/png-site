@@ -1,0 +1,12 @@
+{% assign indicator_page_content_raw = page.indicator.page_content | strip %}
+{% if indicator_page_content_raw != '' %}
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    {% if indicator_page_content_raw | t != indicator_page_content_raw | t | strip_html %}
+      {{ indicator_page_content_raw | t }}
+    {% else %}
+      {{ indicator_page_content_raw | t | markdownify }}
+    {% endif %}
+  </div>
+</div>
+{% endif %}
