@@ -1,3 +1,7 @@
+{% if page.goal == 17 %}
+  {% redirect_to /404 %}
+{% endif %}
+
 {% include head.html %}
 {% include header.html %}
 
@@ -95,4 +99,4 @@
 </div>
 
 
-{% include footer.html %}
+{% include footer.html %}   
