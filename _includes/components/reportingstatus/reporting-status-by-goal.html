@@ -7,6 +7,10 @@
 
 <h2>{{ include.title }}</h2>
 {%- for goalreport in include.goals -%}
+    {% for goal in page.goals %}
+        {% if goal.number == "17" or goal.url == "/17/" %}
+            {% continue %}
+    {% endif %}
 {%- assign goal = goalreport.goal | strip | sdg_lookup -%}
 <div class="goal reporting-status-item">
     <div class="frame goal-tiles">
