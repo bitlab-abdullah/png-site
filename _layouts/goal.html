@@ -1,6 +1,8 @@
-{% if page.goal == 17 %}
-  {% redirect_to /404 %}
+{% if page.goal.number == 17 %}
+  {% include 404.html %}
+  {% break %}
 {% endif %}
+
 
 {% include head.html %}
 {% include header.html %}
