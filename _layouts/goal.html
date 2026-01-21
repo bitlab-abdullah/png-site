@@ -1,4 +1,12 @@
-{% if page.goal.number == 17 %}
+<p style="background:red;color:white;padding:10px">
+  DEBUG:
+  page.goal = {{ page.goal | jsonify }}
+  <br>
+  page.goal.number = {{ page.goal.number | jsonify }}
+</p>
+
+
+{% if page.url == "/17/" %}
 
   {% include 404.html %}
 
