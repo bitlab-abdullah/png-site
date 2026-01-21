@@ -1,0 +1,33 @@
+goals:
+  - id: 1
+    translation_key: goal.1.title
+  - id: 2
+    translation_key: goal.2.title
+  - id: 3
+    translation_key: goal.3.title
+  - id: 4
+    translation_key: goal.4.title
+  - id: 5
+    translation_key: goal.5.title
+  - id: 6
+    translation_key: goal.6.title
+  - id: 7
+    translation_key: goal.7.title
+  - id: 8
+    translation_key: goal.8.title
+  - id: 9
+    translation_key: goal.9.title
+  - id: 10
+    translation_key: goal.10.title
+  - id: 11
+    translation_key: goal.11.title
+  - id: 12
+    translation_key: goal.12.title
+  - id: 13
+    translation_key: goal.13.title
+  - id: 14
+    translation_key: goal.14.title
+  - id: 15
+    translation_key: goal.15.title
+  - id: 16
+    translation_key: goal.16.title
