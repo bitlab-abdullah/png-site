@@ -44,7 +44,6 @@ create_goals:
     - goal: 14
     - goal: 15
     - goal: 16
-    - goal: 17
 create_indicators:
   previous_next_links: false
 create_pages:
