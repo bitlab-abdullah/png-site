@@ -36,3 +36,13 @@ exclude:
   - README
   - README.md
   - LICENSE
+hide_goals:
+  - "17"
+  - "16"
+  - "15"
+  - "14"
+  - "13"
+
+
+
+
