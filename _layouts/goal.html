@@ -1,7 +1,7 @@
-{% if site.hide_goals contains goal.number %}
+{% assign goal_num = page.goal.number | append: "" %}
 
+{% if site.hide_goals contains goal_num %}
   {% include page-not-found.html %}
-
 {% else %}
 
     {% include head.html %}
