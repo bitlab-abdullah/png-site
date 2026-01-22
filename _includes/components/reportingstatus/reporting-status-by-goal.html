@@ -9,7 +9,7 @@
 {%- for goalreport in include.goals -%}
 {%- assign goal = goalreport.goal | strip | sdg_lookup -%}
 
-{% if goal.number in site.hide_goals %}
+{% if site.hide_goals contains goal.number %}
     {% continue %}
 {% endif %}
 <div class="goal reporting-status-item">

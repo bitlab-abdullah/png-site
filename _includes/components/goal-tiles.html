@@ -1,7 +1,7 @@
 <div class="goal-tiles">
     <div class="row g-2">
         {% for goal in page.goals %}
-              {% if goal.number in site.hide_goals %}
+              {% if site.hide_goals contains goal.number %}
                 {% continue %}
             {% endif %}
         <div class="col-4 col-md-2 col-lg-1 goal-tile">
