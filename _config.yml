@@ -37,3 +37,7 @@ exclude:
   - README.md
   - LICENSE
 
+
+hide_goals:
+  - 17
+  - 13
