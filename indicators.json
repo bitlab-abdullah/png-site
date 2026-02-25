@@ -108,6 +108,14 @@
           "keywords": "",
           "href": "/png-site/1-b-1/",
           "status": "notstarted"
+        },
+        {
+          "id": "1-x-1",
+          "title": "test indicator 1.x.1",
+          "description": "",
+          "keywords": "",
+          "href": "/png-site/1-x-1/",
+          "status": "notstarted"
         }]
     }
   },
