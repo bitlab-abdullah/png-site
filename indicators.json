@@ -2166,20 +2166,4 @@
           "status": "complete"
         }]
     }
-  },
-  {
-    "goal": {
-      "id": "19",
-      "title": "test goal 19",
-      "indicators": [
-        
-        {
-          "id": "19-1-1",
-          "title": "Indicator 19.1.1",
-          "description": "",
-          "keywords": "",
-          "href": "/png-site/19-1-1/",
-          "status": "notstarted"
-        }]
-    }
   }]
